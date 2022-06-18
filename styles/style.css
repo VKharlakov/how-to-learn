@@ -84,6 +84,37 @@ body, h1, h2, h3, h4, a, p {
   background-color: #2f80ed;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+.two-columns {
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  line-height: 1.2px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -92,7 +123,7 @@ body, h1, h2, h3, h4, a, p {
   margin-top: 80px;
 }
 
-/*
+
 div {
   border: 1px solid green;
 }
@@ -103,4 +134,20 @@ h1 {
 
 h4 {
   border: 1px solid green;
-} */
+}
+
+span {
+  border: 1px solid green;
+}
+
+section {
+  border: 1px solid green;
+}
+
+img {
+  border: 1px solid green;
+}
+
+p {
+  border: 1px solid green;
+}
