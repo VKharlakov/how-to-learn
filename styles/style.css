@@ -1,4 +1,4 @@
-body, h1, h2, h3, h4, a, p, span {
+p, span {
   margin: 0;
 }
 
@@ -6,7 +6,13 @@ body, h1, h2, h3, h4, a, p, span {
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  padding: 0;
   font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
 }
 
 .section-margin {
@@ -85,7 +91,6 @@ body, h1, h2, h3, h4, a, p, span {
 }
 
 .description {
- /* margin: 100px auto; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +337,8 @@ body, h1, h2, h3, h4, a, p, span {
   margin-right: 10px;
 }
 
-/*
+/*Границы блоков для удобного редактирования
+
 div {
   border: 1px solid green;
 }
@@ -380,4 +386,5 @@ header {
 footer {
   border: 1px solid green;
 }
+
 */
